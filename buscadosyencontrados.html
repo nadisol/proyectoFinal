@@ -61,7 +61,7 @@
             </div>
            
            <div>
-            Subí una imagen de la mascota
+            <label for="">Subí una imagen de la mascota</label>
            <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
             <input type="file" name="imagen" />
            </form>
@@ -72,13 +72,26 @@
            <div>
            <label for="">Descripción de la Mascota(cuándo se perdió/encontró, características, nombre de la Mascota)</label></div>
 
-           <div><input class="BuscadosyEncontrados" type="Text" />
+           <div><textarea
+            class="controlsByE"
+            name=""
+            id=""
+            cols="40"
+            rows="10"
+          ></textarea>
            </div>
 
            <div>
            <label for="">Lugar (zona, barrio, localidad) donde se encontró o perdió la Mascota </label></div>
 
-           <div><input class="BuscadosyEncontrados" type="Text" />
+           <div><textarea
+            class="controlsByE"
+            name=""
+            id=""
+            cols="40"
+            rows="0"
+          ></textarea>
+           </div>
        
            </div>
            
@@ -86,7 +99,7 @@
            </div>
 
            <div>
-             Contacto 
+             Datos para contactarte 
              <input class="controlsAdop" type="Text" placeholder="Nombre y Apellido" />
 
              <input class="controls2" type="email"name="Email"value=""       placeholder="Email"/>             
@@ -94,10 +107,9 @@
              <input class="controlsAdop" type="number" placeholder="Teléfono" />
            </div>
 
-          
-
-           <input class="button" type="submit" value="Enviar" />
-           <input class="button" type="reset" value="Borrar" />
+            
+             <input class="button3" type="submit" value="Enviar" />
+             <input class="button3" type="reset" value="Borrar" />
          
         </form>
       </section>

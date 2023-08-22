@@ -294,10 +294,10 @@ footer {
  
 .form-login3 {
   width: 280px;
-  height: 560px;
+  height: 750px;
   background-color: aquamarine;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 5px;
   box-shadow: 2px 3px 5px #000;
   padding: 11px;
   border-top: 4px solid rgb(36, 237, 170);
@@ -305,9 +305,15 @@ footer {
   line-height: 20px;
 }
 
-.form-login3{
-   content: "🐾";
+.controlsByE{
+  width: 95%;
+  border: 1px solid rgb(36, 237, 170);
+  margin-bottom: 6px;
+  padding: 4px 1px;
+  background: #d8d6d6;
+  font-size: 14px;
 }
+
 
 
 
@@ -498,6 +504,7 @@ footer {
     margin: 40px;
     font-size: medium;
     font-family: "roboto", sans-serif;
+    line-height: 30px;
   }
 
   body .inicio {
@@ -615,5 +622,27 @@ footer {
     border: 0px;
     text-align:left;
   }
+
+  /* Buscados y Encontrados */
+  .form-login3 {
+    width: 560px;
+    height: 1000px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 3px 5px #000;
+    padding: 11px;
+    border-top: 4px solid rgb(36, 237, 170);
+    text-align:left;
+    line-height: 30px;
+  }
+
+  .form-login3 iframe {
+    width: 560px;
+    height: 400px;
+  }
+
+  
+  
 
 }
