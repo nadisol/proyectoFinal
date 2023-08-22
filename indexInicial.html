@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuentra a tu mascota</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Aca alineamos el logo al medio de la página. Asimismo lo vinculamos al inicio para al apretarlo recargar. En las restantes páginas
+      al hacer click vuelve a la primera. -->
+      <center>
+        <nav>
+          <a href="indexInicial.html">
+            <img
+              class="logo"
+              src="ImagenesInicio/LOGO3.png"
+              alt="lupa con huella de perrito adentro"
+            />
+          </a>
+        </nav>
+      </center>
+
+      <!-- La clase "container" incluye los links de las restantes páginas -->
+      <nav class="container">
+
+        <a href="buscadosyencontrados.html">Buscados y Encontrados</a>
+        <a href="telefonosUtiles.html">Teléfonos útiles</a>
+        <a href="AdopcionesYtransito2.html">Adopciones y Tránsito</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+
+    <!-- A continuación creamos una seccion padre llamada Inicio que contiene una imagen y un formulario, a fin de acomodarlas mediante
+    grillas en el CSS -->
+    <main>
+      <section class="inicio">
+        <!-- Esto quedaria mejor en css pero no sabemos bien como hacerlo. Por ahora lo dejamos en el HTML comentado. 
+          Es para poner el texto sobre la imagen. -->
+        <div style="position: relative">
+          <img
+            class="imagenesinicioA"
+            src="ImagenesInicio/PORTADA3.jpg"
+            alt="Perrito que saluda con la mirada"
+          />
+        </div>
+        <!-- EL TEXTO ESTA COMENTADO HASTA SABER COMO ALINEAR EL TEXTO EN EL MEDIO DE LA IMAGEN -->
+
+        <!-- <div style="position: absolute; top: 45%; left: 35%"> -->
+
+        <!-- <p class="bienvenidos">BIENVENIDOS!</p> -->
+        <!-- </div> -->
+
+        <section class="form-login">
+          <h5>Formulario Login</h5>
+          <input
+            class="controls"
+            type="text"
+            name="usuario"
+            value=""
+            placeholder="Usuario"
+          />
+          <input
+            class="controls"
+            type="password"
+            name="contraseña"
+            value=""
+            placeholder="Contraseña"
+          />
+          <input class="button" type="submit" name="" value="Ingresar" />
+          <p><a href="#"> ¿Olvidaste tu contraseña?</a></p>
+        </section>
+      </section>
+
+      <u><h2 class="titulos">SOBRE NOSOTROS</h2></u>
+      <!-- A fin de no repetir en cada párrafo que pertenecen a la clase párrafos, se crea una  -->
+      <!-- seccion que los contiene. De esta manera evitamos que al utilizar grillas y pretender identificar los 3 párrafos se sobreescriban. -->
+      <section class="sobrenosotros">
+        <section class="parrafos">
+          <p>
+            Encuentra a tu mascota nace en la ciudad de La Plata como una
+            solución amigable para aquellos corazones preocupados de los dueños
+            que han perdido a sus mascotas y de las mascotas que buscan a sus
+            dueños. El principal objetivo es brindar herramientas que permitan
+            un rápido reencuentro. A través de la misma, quienes hayan perdido o
+            encontrado una mascota pueden publicar su foto, agregando
+            descripciones y características.
+          </p>
+
+          <p>
+            Asimismo, contamos con la sección Adopciones y Tránsito, destinada a
+            quienes están dispuestos a dar hogar permanente o transitorio a
+            nujestros pequeños amigos. Remarcamos lo importante que es
+            concientizar en este tema y la responsabilidad que ser un hogar
+            implica. Es por ello que quienes decidan formar parte de dicho grupo
+            deberán cumplir una serie de requisitos mínimos.
+          </p>
+
+          <p>
+            Por último podran encontrar en la sección "Teléfonos Utiles" datos
+            de contacto importantes a la hora de cuidar a los animales.
+          </p>
+        </section>
+
+        <!-- Con esta configuracion el video se reproduce en silencio y de manera continua. -->
+        <video
+          class="videoinicio"
+          src="Videos/video perro inicio.mp4"
+          width="275px"
+          height="150px"
+          autoplay="true"
+          muted="true"
+          loop="true"
+        ></video>
+      </section>
+      <u><h2 class="titulos">LA ALEGRIA DE LOS REENCUENTROS</h2></u>
+      <!-- acá va un carrusel de imágenes con descripciones de cada reencuentro logrado a través de la página. 
+        A modo de ejemplo incorporamos imágenes hasta tener el conocimiento de como hacer el carrusel -->
+
+      <section class="carrusel">
+        <img
+          class="imagenesinicio"
+          src="ImagenesInicio/alegriareencuentros.jpg"
+          alt="Mujer abrazada a dos perros salchicas"
+        />
+
+        <img
+          class="imagenesinicio"
+          src="ImagenesInicio/ETM2.jpg"
+          alt="Niña jugando con su perrito"
+        />
+
+        <img
+          class="imagenesinicio"
+          src="ImagenesInicio/ETM3.jpg"
+          alt="Labrador adulto sonriendo"
+        />
+      </section>
+
+      <section class="form-login2">
+        <h5>Suscríbete para recibir novedades</h5>
+
+        <form>
+          <input
+            class="controls2"
+            type="Text"
+            name="Nombre"
+            value=""
+            placeholder="Nombre"
+          />
+
+          <input
+            class="controls2"
+            type="email"
+            name="Email"
+            value=""
+            placeholder="Email"
+          />
+
+          <input class="button" type="submit" value="Enviar" />
+          <input class="button" type="reset" value="Borrar" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer">
+        <div class="contact-info">
+          <a href="contacto.html">Contáctanos</a>
+          <br />
+          <a href="https://mail.google.com/">
+            <img
+              class="iconos"
+              src="ImagenesInicio/logo email.png"
+              alt="Logo de email"
+            />
+            etm@gmail.com</a
+          >
+          <p class="texto">
+            <img
+              class="iconos"
+              src="ImagenesInicio/logo tel.png"
+              alt="Teléfono"
+            />
+            2216547892
+          </p>
+        </div>
+
+        <div class="social-media">
+          <p class="texto">Síguenos</p>
+          <a href="https://www.instagram.com">
+            <img
+              class="red-social"
+              src="imagenesInicio/instagram.png"
+              alt="Logo de Instagram"
+          /></a>
+          <a href="https://www.twitter.com/home">
+            <img
+              class="red-social"
+              src="imagenesInicio/twitter.png"
+              alt="Logo de Twitter"
+          /></a>
+          <a href="https://www.facebook.com">
+            <img
+              class="red-social"
+              src="imagenesInicio/facebook.png"
+              alt="Logo de Facebook"
+          /></a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
