@@ -14,7 +14,7 @@ a {
 header {
   padding: 5px;
   /* margin: 5px; */
-  background-color: azure;
+  /*background-color: azure;*/  
   position: static;
   width: 100%;
   min-height: 20px;
@@ -201,7 +201,7 @@ body div .imagenbanner {
 footer {
   margin-top: 1.2em;
   padding: 20px;
-  background-color: #bae8ec8c;
+  /*background-color: #bae8ec8c;*/
   text-align: center;
 }
 */ .footer {
