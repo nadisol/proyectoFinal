@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>buscados y encontrados</title>
+    <link rel="stylesheet" href="/estilo/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html" class="logo">
+          <img
+            id="imglogo"
+            src="/estilo/ImagenesInicio/LUPA_Mesa de trabajo 1.png"
+            alt="logo de lupa con huellita dentro"
+          />
+          <h2 class="nombre-empresa">Encuentra a Tu Mascota</h2>
+        </a>
+      </nav>
+
+      <nav class="container">
+        <a href="/paginas/buscadosyencontrados.html">Buscados y encontrados</a >
+        <a href="/paginas/telefonosUtiles.html"> Telefonos Utiles</a>
+        <a href="/paginas/AdopcionesYtransito2.html">
+          Adopciones y Tránsito</a        >
+        <a href="/paginas/contacto.html"> Contacto </a>
+      </nav>
+      
+    </header>
+
+   <main>
+    <center>
+      <br /><br />
+      <h1 class="titulos">Buscados y Encontrados</h1>
+    </center>
+
+    
+    <section class="carruselbye">
+     
+        <img
+         class="imagenbannerbye1"
+         src="/estilo/ImagenesByE/bye1.jpg"
+         alt="Perritos abandonados"
+        />     
+
+
+      <p class="pByE">Buscados y Encontrados es un espacio de ayuda para aquellos animales que se perdieron o fueron abandonados. El objetivo primordial es brindar información en ambos casos.
+      Cuando recibimos notificación de que un animal necesita ayuda, se despliega un protocolo para poder asistirlo.
+      Es importante actualizar la información de manera inmediata para poder localizar, tanto a los animalitos perdidos como a los dueños.
+      Si bien la mayoría de los  animales que se encuentran son abandonados, publicar su aparición sería de ayuda para encontrar algún lugar de tránsito que los refugie o bien alguien que se ofrezca para adoptarlo.
+      </p>
+
+        <br>
+        <p style="color:rgb(4, 132, 132)" >Ayudarlos es un acto de solidaridad</p>
+        <br>
+
+    </section>
+
+
+    <section class="carrusel2bye">
+
+       <img
+        class="imagenbannerbye"
+        src="/estilo/ImagenesByE/abrazobye6.jpg"
+        alt="Dueño y perro"
+       />
+     
+
+        <h3 class="h3bye">Llenando el siguiente formulario podes colaborar para que nuestros pequeños amigos perdidos se reencuentren con sus dueños o encuentren un nuevo hogar. <br>  
+          <br>
+          (Completá todos los campos requeridos, para contar con la mayor información posible)</h3> 
+   </section>
+
+
+   <center><h2 class="listadoByE">Mascotas Buscadas y Encontradas</h2></center>
+   <section class="listadoMascotas">
+    <article>
+       <img class="abrazo" src= "https://images.pexels.com/photos/18344059/pexels-photo-18344059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="abrazo1" >
+      <h3>Ayudante de Santa</h3>
+    <p>3</p>
+
+    </article>
+   </section>
+
+
+
+
+
+ 
+    <section class="form-login3">
+      
+       <form class="BuscadosyEcontrados">
+          
+          <div>
+          <h3>Buscado
+          <input type="radio" name="Tipo" value="Buscado" />
+  
+          Encontrado
+          <input type="radio" name="Tipo" value="Encontrado" /></h3>
+          </div>
+         
+         <div>
+          <label for="">Subí una imagen de la mascota</label>
+         <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
+          <input type="file" name="imagen" />
+         </form>
+       
+         <form name="subir imagen" type="POST" enctype="multipart/formdata" >
+         </div>
+        
+         <div>
+         <label for="">Descripción de la Mascota(cuándo se perdió/encontró, características, nombre de la Mascota)</label></div>
+
+         <div><textarea
+          class="controlsByE"
+          name=""
+          id=""
+          cols="40"
+          rows="10"
+        ></textarea>
+         </div>
+
+         <div>
+         <label for="">Lugar (zona, barrio, localidad) donde se encontró o perdió la Mascota </label></div>
+
+         <div><textarea
+          class="controlsByE"
+          name=""
+          id=""
+          cols="40"
+          rows="0"
+        ></textarea>
+         </div>
+     
+         </div>
+         
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.084357890984!2d-57.99436985670276!3d-34.92043086929538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1692672513077!5m2!1ses!2sar" width="280" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+
+         <div>
+           Datos para contactarte 
+           <input class="controlsAdop" type="Text" placeholder="Nombre y Apellido" />
+
+           <input class="controlsAdop" type="email"name="Email"value=""       placeholder="Email"/>             
+              
+           <input class="controlsAdop" type="number" placeholder="Teléfono" />
+         </div>
+
+          
+           <input class="button3" type="submit" value="Enviar" />
+           <input class="button3" type="reset" value="Borrar" />
+       
+      </form>
+    </section>
+   </main>
+  
+   <footer>
+    <section class="footer">
+      <div class="contact-info">
+        <br />
+        <a href="https://mail.google.com/">
+          <img
+            class="iconos"
+            src="/estilo/ImagenesInicio/logo email.png"
+            alt="Logo de email"
+          />
+          etm@gmail.com</a
+        >
+        <p class="texto">
+          <img
+            class="iconos"
+            src="/estilo/ImagenesInicio/logo tel.png"
+            alt="Teléfono"
+          />
+          2216547892
+        </p>
+      </div>
+
+      <div class="social-media">
+        <p class="texto">Síguenos</p>
+        <a href="https://www.instagram.com">
+          <img
+            class="red-social"
+            src="/estilo/ImagenesInicio/instagram.png"
+            alt="Logo de Instagram"
+        /></a>
+        <a href="https://www.twitter.com/home">
+          <img
+            class="red-social"
+            src="/estilo/ImagenesInicio/twitter.png"
+            alt="Logo de Twitter"
+        /></a>
+        <a href="https://www.facebook.com">
+          <img
+            class="red-social"
+            src="/estilo/ImagenesInicio/facebook.png"
+            alt="Logo de Facebook"
+        /></a>
+      </div>
+    </section>
+  </footer>
+  <script src="/paginas/listadoMascotas.js"></script>
+  </body>
+</html>

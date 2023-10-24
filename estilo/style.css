@@ -1,0 +1,1172 @@
+/* Inicio */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+ 
+hr {
+
+}
+
+header {
+  padding: 5px;
+  background-color: azure;
+  position: static;
+  width: 100%;
+  min-height: 20px;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0;
+  padding-top: 8px;
+}
+
+.logo {
+  align-items: center;
+}
+
+.logo img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  height: 70px;
+  width: 90px;
+}
+
+nav a {
+  font-weight: 500;
+}
+
+a:active {
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+}
+
+body {
+  margin: 20px;
+  font-size: small;
+  font-family: "roboto", sans-serif;
+  line-height: 20px;
+  background-image: url(/estilo/ImagenesInicio/fondo.png);
+}
+
+
+
+
+
+.imagenesinicioA {
+  width: 275px;
+  height: 200px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.bienvenidos {
+  font-size: large;
+  font-weight: bold;
+}
+
+.imagenesinicio {
+  width: 120px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+/* CARRUSEL */
+
+/* TAMAÑO DE IMAGENES DEL CARRUSEL */
+.imgCarruselPpal{
+  width: 100%;
+}
+
+/* tamaño de la mujer y perros salchichas */
+.imgCarruselPpal1{
+  width: 90%;
+}
+
+.carousel-caption {
+  top: 85px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+
+}
+
+/* INDICADORES LINEAS _ _ _ DEL CARRUSEL */
+.carousel-indicators{
+  top: 200px;
+}
+
+
+/* PADDING EN RELACION DISTANCIA CON LAS LINEAS PARA PASAR DE FOTO y el titulo */
+
+.tituloCarrusel{
+  margin-top: 60px;
+  line-height: 25px;
+  margin-right: auto ;
+  margin-left: auto;
+  width: 60%;
+  opacity: 0.7;
+  background: linear-gradient(to right, #3f51b5, aqua);
+  font-size: large
+}
+
+.tituloCarrusel1{
+  margin-top: 60px;
+  line-height: 25px;
+  margin-right: auto ;
+  margin-left: auto;
+  width: 60%;
+  opacity: 0.7;
+  background: linear-gradient(to right, #3f51b5, aqua);
+  font-size: large}
+
+  /* parrafos del carrusel */
+
+  /* .carruselPfo{
+     font-weight: bolder; 
+
+
+ } */
+
+
+
+
+
+
+
+
+
+
+
+.form-login {
+  width: 250px;
+  height: 150px;
+  background-color: aquamarine;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 2px 3px 5px #000;
+  padding: 11px;
+  border-top: 4px solid rgb(36, 237, 170);
+  color: white;
+}
+
+.form-login h5 {
+  margin: 0;
+  text-align: center;
+  height: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(36, 237, 170);
+  font-size: 15px;
+}
+
+.controls {
+  width: 100%;
+  border: 1px solid rgb(36, 237, 170);
+  margin-bottom: 6px;
+  padding: 4px 1px;
+  background: #d8d6d6;
+  font-size: 14px;
+}
+
+.controls2 {
+  width: 100%;
+  height: 10%;
+  border: 1px solid rgb(36, 237, 170);
+  margin-bottom: 5%;
+  padding: 10%, 2%;
+  background: #d8d6d6;
+  font-size: 14px;
+}
+
+.button {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, #3f51b5, aqua);
+  border: none;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.form-login p {
+  height: 20px;
+  text-align: center;
+  border-bottom: 1px solid rgb(36, 237, 170);
+}
+
+body div .imagenbanner {
+  width: 250px;
+  height: 100px;
+  margin: 10px;
+  border: 2px black solid;
+}
+
+.parrafos {
+  font-size: small;
+  margin: 10;
+  padding: 20px;
+  border: 0;
+  text-align: justify;
+}
+
+.titulos {
+  margin: 20px;
+  font-size: large;
+  color: #000;
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+.subtitulos {
+  padding: 10px;
+  font-size: medium;
+  color: rgb(4, 4, 4);
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+  text-align: left;
+}
+.form-login2 {
+  width: 250px;
+  height: 150px;
+  background-color: aquamarine;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 2px 3px 5px #000;
+  padding: 11px;
+  border-top: 4px solid rgb(36, 237, 170);
+  color: white;
+}
+
+.form-login2 h5 {
+  margin: 0;
+  text-align: center;
+  height: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(36, 237, 170);
+  font-size: 15px;
+}
+
+footer {
+  margin-top: 1.2em;
+  padding: 20px;
+  background-color: #bae8ec8c;
+  text-align: center;
+}
+*/ .footer {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.2em;
+  padding: 20px;
+  background-color: #bae8ec8c;
+  text-align: center;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.social-media .texto {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.red-social {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 7px;
+}
+
+.iconos {
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+}
+
+
+/* Adopciones y Tránsito */
+
+.imagenesAdop {
+  align-items: center;
+}
+
+.imgAdop {
+  width: 30%;
+  height: 300%;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.consejos {
+  margin-left: 20%;
+}
+
+.formAdop {
+  width: 250px;
+  height: auto;
+  background-color: aquamarine;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 2px 3px 5px #000;
+  padding: 11px;
+  border-top: 4px solid rgb(36, 237, 170);
+}
+
+.controlsAdop {
+  width: 100%;
+  border: 1px solid rgb(36, 237, 170);
+  margin-bottom: 6px;
+  padding: 4px 1px;
+  background: rgb(245, 245, 245);
+  font-size: 14px;
+}
+
+.formCont {
+  width: auto;
+  height: auto;
+  background-color: aquamarine;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 2px 3px 5px #000;
+  padding: 11px;
+  border-top: white;
+}
+
+.gifadopcion {
+  width: 40%;
+  height: 40%;
+}
+
+.consejos li {
+  list-style: none;
+}
+
+.consejos ::before {
+  content: "🐾";
+}
+
+.button3 {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, #3f51b5, aqua);
+  border: none;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.videoAdopcion{
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/* Telefonos Utiles */
+
+.telefonosutiles {
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+.imagenestelefonos1 {
+
+  width: 80%;
+  margin: 5px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.h3TU {
+  text-align: justify;
+}
+
+.imagenestelefonos2 {
+
+  width: 80%;
+  margin: 5px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+
+.informacion li {
+  margin-left: 5%;
+  list-style: square;
+  font-size: small;
+  margin: 20px;
+  border: 0;
+  text-align: left;
+}
+
+
+
+/* Buscados y Encontrados */
+
+.form-login3 {
+  width: 280px;
+  height: 750px;
+  background-color: aquamarine;
+  margin: auto;
+  margin-top: 5px;
+  box-shadow: 2px 3px 5px #000;
+  padding: 11px;
+  border-top: 4px solid rgb(36, 237, 170);
+  text-align: left;
+  line-height: 20px;
+}
+
+.controlsByE {
+  width: 95%;
+  border: 1px solid rgb(36, 237, 170);
+  margin-bottom: 6px;
+  padding: 4px 1px;
+  background: #d8d6d6;
+  font-size: 14px;
+}
+
+.imagenbannerbye1 {
+  width: 80%;
+  margin: 5px;
+  margin-left: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.pByE {
+  text-align: justify;
+  margin: 10px;
+}
+
+body .carruselbye {
+  justify-content: space-between;
+}
+
+.h3bye {
+  text-align: justify;
+}
+
+.imagenbannerbye {
+  justify-content: space-between;
+  width: 80%;
+  margin: 5px;
+  margin-left: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.listadoMascotas{
+  margin: 5%;
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content:space-around ;
+  border-style:double ;
+  text-align: center;
+ 
+}
+
+
+
+/* Contacto */
+
+.contactoP {
+  margin: 10px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.imgCont {
+  width: 80%;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+
+.contacto {
+  width: 100%;
+  border-bottom: 2px solid white;
+  margin-bottom: 6px;
+  padding: 4px 1px;
+  background-color: RGB(245, 245, 245);
+
+  font-size: 14px;
+}
+.checkbox {
+  font-size: medium;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  header .container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: medium;
+  }
+
+  .logo img {
+    height: 90px;
+    width: 110px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 7px 8px;
+    height: 80%;
+  }
+
+  .imagenesinicioA {
+    grid-area: imagenInicio;
+    width: 100%;
+    height: 85%;
+  }
+
+   /* CARRUSEL */
+
+
+   .carousel-caption {
+    top: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+   }
+
+   /* INDICADORES LINEAS _ _ _ DEL CARRUSEL */
+   .carousel-indicators{
+    top: 500px;
+   }
+
+
+   /* PADDING EN RELACION DISTANCIA CON LAS LINEAS PARA PASAR DE FOTO y el titulo */
+
+   .tituloCarrusel{
+    margin-top: 45px;
+    line-height: 25px;
+    margin-right: auto ;
+    margin-left: auto;
+    width: 30%;
+    opacity: 0.7;
+    background: linear-gradient(to right, #3f51b5, aqua);
+    font-size: x-large;
+   }
+
+   .tituloCarrusel1{
+    margin-top: 43px;
+    line-height: 30px;
+    margin-right: auto ;
+    margin-left: auto;
+    width: 30%;
+    opacity: 0.7;
+    background: linear-gradient(to right, #3f51b5, aqua);
+    font-size: x-large;
+   }
+
+  /* parrafos del carrusel */
+
+   .carruselPfo{
+     /* font-weight: bolder;  */
+
+     font-size: large
+   
+    } 
+
+
+
+
+
+  .carrusel {
+    display: flex;
+    justify-content: center;
+  }
+  .form-login {
+    grid-area: formularioInicio;
+    height: 75%;
+    width: 250px;
+  }
+
+  .controls {
+    width: 100%;
+    height: 10%;
+    border: 1px solid rgb(36, 237, 170);
+    margin-bottom: 15%;
+    padding: 10%, 2%;
+    background: #d8d6d6;
+    font-size: 14px;
+  }
+
+  .button {
+    width: 30%;
+    background: linear-gradient(to right, #3f51b5, aqua);
+    border: none;
+    color: white;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+
+    font-size: 14px;
+  }
+
+  .videoinicio {
+    border: 4px;
+    width: 350px;
+    height: 190px; 
+    border-style: dashed;
+    border-color: aqua;
+    float: left;
+  }
+
+  .parrafos {
+    grid-area: parrafos;
+    font-size: 13px;
+  }
+
+  body .inicio {
+    display: grid;
+    grid-template-areas: "imagenInicio imagenInicio formularioInicio";
+    justify-content: space-evenly;
+    height: 300px;
+  }
+
+  body .sobrenosotros {
+    display: grid;
+    grid-template-areas: "parrafos videoinicio";
+    justify-content: space-between;
+  }
+
+  .imagenesinicio {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+  }
+
+  .titulos {
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  .form-login2 {
+    width: auto;
+    height: auto;
+    background-color: aquamarine;
+    margin-top: 10px;
+    box-shadow: 2px 3px 5px #000;
+    border-top: 4px solid rgb(36, 237, 170);
+    color: white;
+  }
+
+  .form-login2 h5 {
+    margin: 0;
+    text-align: center;
+    height: 20px;
+    margin-bottom: 5px;
+
+    border-bottom: 1px solid rgb(36, 237, 170);
+    font-size: 15px;
+  }
+
+  .controls2 {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 4px 1px;
+    background: rgb(245, 245, 245);
+    font-size: 14px;
+    text-align: letf;
+  }
+
+  /* Adopciones y tránsito */
+  .gifadopcion {
+    width: 30%;
+    height: 20%;
+  }
+
+  
+.videoAdopcion{
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+  
+
+  /* Telefonos Utiles */
+
+
+
+  .imagenestelefonos1 {
+    grid-area: imagenestelefonos1;
+    width: 250px;
+    height: 180px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  .imagenestelefonos2 {
+    grid-area: imagenestelefonos2;
+    width: 250px;
+    height:180px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  .h3TU{
+    grid-area: h3TU;
+  }
+
+ body .telefonosutiles {
+    display: grid;
+    grid-template-areas: "imagenestelefonos1 h3TU imagenestelefonos2";
+    justify-content: space-between;
+  }
+
+  .imagenestelefonos3 {
+    display: flex;
+    width: 140px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  .imagenestelefonos4 {
+
+    width: 140px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+
+  body .telefonesutiles2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .informacion li {
+    margin-left: 5%;
+    list-style: square;
+    font-size: medium;
+    margin: 30px;
+    border: 0;
+    text-align: left;
+  }
+
+  /* Contacto */
+  .formCont {
+    margin: 20px;
+  }
+
+  .contactoP {
+    grid-area: parrafoContacto;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .imgCont {
+    grid-area: imagenContacto;
+    width: 230px;
+    height: 160px;
+    margin-top: 15px;
+    margin-left: 25px;
+    border-radius: 5px;
+  }
+
+  body .phone {
+    display: grid;
+    grid-template-areas: "parrafoContacto imagenContacto";
+    justify-content: space-around;
+  }
+
+  /* Buscados y Encontrados */
+
+  .imagenbannerbye1 {
+    grid-area: byeF;
+    width: 230px;
+    height: 160px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  .pByE {
+    grid-area: pByE;
+    text-align: justify;
+    margin-left: 10px;
+  }
+
+  body .carruselbye {
+    display: grid;
+    grid-template-areas: "pByE byeF";
+    justify-content: space-evenly;
+  }
+
+  .h3bye {
+    grid-area: h3bye;
+    text-align: justify;
+    margin: 10px;
+  }
+
+  .imagenbannerbye {
+    grid-area: bye2;
+    width: 230px;
+    height: 160px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+
+  body .carrusel2bye {
+    display: grid;
+    grid-template-areas: "bye2 h3bye";
+    justify-content: space-evenly;
+  }
+
+}
+@media (min-width: 1000px) {
+  */ a {
+    text-decoration: none;
+    color: #000;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img {
+    height: 120px;
+    width: 150px;
+  }
+
+  nav a {
+    font-weight: 600;
+    padding-right: 10px;
+  }
+
+  nav a:hover {
+    color: aqua;
+  }
+
+  .imagenesinicioA {
+    grid-area: imagenInicio;
+    width: 600px;
+    height: 350px;
+    margin: 10px;
+    border: 5px;
+  }
+
+  .imagenesinicio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+  }
+
+  body {
+    margin: auto;
+    font-size: medium;
+    font-family: "roboto", sans-serif;
+  }
+
+  body .inicio {
+    display: grid;
+    grid-template-areas: "imagenInicio formularioInicio";
+    width: auto;
+    height: auto;
+    justify-content: space-evenly;
+  }
+
+  body .sobrenosotros {
+    display: grid;
+    margin: 30px;
+  }
+
+  .titulos {
+    margin: 30px;
+    padding: 30px;
+    color: aqua;
+  }
+
+  header .container nav a :hover {
+    text-shadow: aqua;
+  }
+
+  .parrafos {
+    margin: 0;
+    padding: 0, 5, 0, 0;
+    font-size: medium;
+  }
+
+  .videoinicio {
+    grid-area: videoinicio;
+    padding: 10px;
+    border: 5px;
+    width: 350px;
+    height: 200px;
+    margin-left: 30px;
+    border-style: dashed;
+    border-color: aqua;
+  }
+
+  .titulos {
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+  }
+
+
+    /* CARRUSEL */
+
+
+   .carousel-caption {
+    top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+   }
+
+   /* INDICADORES LINEAS _ _ _ DEL CARRUSEL */
+   .carousel-indicators{
+    top: 100px;
+   }
+
+
+   /* PADDING EN RELACION DISTANCIA CON LAS LINEAS PARA PASAR DE FOTO y el titulo */
+
+   .tituloCarrusel{
+    margin-top: 80px;
+    line-height: 25px;
+    margin-right: auto ;
+    margin-left: auto;
+    width: 30%;
+    opacity: 0.7;
+    background: linear-gradient(to right, #3f51b5, aqua);
+    font-size: x-large;
+   }
+
+   .tituloCarrusel1{
+    margin-top: 43px;
+    line-height: 30px;
+    margin-right: auto ;
+    margin-left: auto;
+    width: 30%;
+    opacity: 0.7;
+    background: linear-gradient(to right, #3f51b5, aqua);
+    font-size: x-large;
+   }
+
+  /* parrafos del carrusel */
+
+   .carruselPfo{
+     /* font-weight: bolder;  */
+
+     font-size: large
+   
+    } 
+
+
+
+  .form-login {
+    width: 100%;
+    height: 85%;
+    background-color: aquamarine;
+    margin: auto;
+    justify-content: left;
+    margin-top: 10px;
+    box-shadow: 2px 3px 5px #000;
+    padding: 11px;
+    border-top: 4px solid rgb(36, 237, 170);
+    color: rgb(10, 1, 1);
+  }
+
+  .form-login2 {
+    width: 50%;
+    height: auto;
+    background-color: aquamarine;
+    margin: auto;
+    justify-content: left;
+    margin-top: 10px;
+    box-shadow: 2px 3px 5px #000;
+    padding: 11px;
+    border-top: 4px solid rgb(36, 237, 170);
+    color: white;
+  }
+
+  .controls {
+    width: 100%;
+    height: 10%;
+    border: 1px solid rgb(36, 237, 170);
+    margin-bottom: 10%;
+    padding: 8%, 2%;
+    background: #d8d6d6;
+    font-size: 14px;
+  }
+
+  .button {
+    width: 50%;
+    height: 10%;
+    background: linear-gradient(to right, #3f51b5, aqua);
+    border: none;
+    padding: 8px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 25%;
+  }
+
+  .controls2 {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 4px 1px;
+    font-size: 14px;
+    padding: 4px 1px;
+    background: rgb(245, 245, 245);
+  }
+
+
+      
+   /* CARRUSEL */
+
+
+   .carousel-caption {
+    top: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+   }
+
+   /* INDICADORES LINEAS _ _ _ DEL CARRUSEL */
+   .carousel-indicators{
+    top: 500px;
+   }
+
+
+   /* PADDING EN RELACION DISTANCIA CON LAS LINEAS PARA PASAR DE FOTO y el titulo */
+
+   .tituloCarrusel{
+    margin-top: 45px;
+    line-height: 25px;
+    margin-right: auto ;
+    margin-left: auto;
+    width: 30%;
+    opacity: 0.7;
+    background: linear-gradient(to right, #3f51b5, aqua);
+    font-size: x-large;
+   }
+
+   .tituloCarrusel1{
+    margin-top: 43px;
+    line-height: 30px;
+    margin-right: auto ;
+    margin-left: auto;
+    width: 30%;
+    opacity: 0.7;
+    background: linear-gradient(to right, #3f51b5, aqua);
+    font-size: x-large;
+   }
+
+  
+
+
+  /* Telefonos Utiles */
+
+  .informacion li {
+    margin-left: 5%;
+    list-style: square;
+    font-size: medium;
+    margin: 30px;
+    border: 0px;
+    text-align: left;
+  }
+
+
+  /* Buscados y Encontrados */
+  .form-login3 {
+    width: 560px;
+    height: 1000px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 3px 5px #000;
+    padding: 11px;
+    border-top: 4px solid rgb(36, 237, 170);
+    text-align: left;
+    line-height: 30px;
+  }
+
+  .form-login3 iframe {
+    width: 560px;
+    height: 400px;
+  }
+
+  /* ADOPCION */
+
+  .videoAdopcion{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 560px;
+    height: 315px;
+  }
+  
+  
+   
+      
+
+  /* Contacto */
+
+  .imgCont {
+    width: 300px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 5px;
+  }
+
+  .contactoP {
+    margin-left: 75px;
+  }
+
+  .formCont {
+    margin: 50px;
+  }
+}
